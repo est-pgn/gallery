@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie responsitiva</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            flex-direction: column;
+            height: 100vh; 
+            margin: 0;
+            background-color: #f0f0f0; 
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%; 
+            justify-content: left; 
+        }
+
+        .image-card {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(to bottom, #87ceeb 70%, white 30%); 
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            color: #333;
+            position: relative; 
+            margin: 50px;
+        }
+
+        .image-icon {
+            width: 200px;
+            height: 200px;
+            margin-top: 10px; 
+        }
+
+        .image-icon img {
+            width: 100%;
+            height: auto;
+        }
+
+        .image-title {
+            position: absolute; 
+            bottom: 10px; 
+            right: 0;
+            left: 0;
+            text-align: center; 
+            background-color: white; 
+            padding: 5px 0;
+            font-size: 18px;
+            color: #333;
+            border-radius: 5px; 
+        }
+
+        @media screen and (max-width: 1024px) {
+.column {
+flex-basis: 33.33%;
+}
+}
+@media screen and (max-width: 768px) {
+.column {
+flex-basis: 50%;
+}
+}
+@media screen and (max-width: 414px) {
+.column {
+flex-basis: 100%;
+}
+}
+
+       
+    </style>
+</head>
+<body>
+
+   <div>
+    <h1>Gallery Heading</h1>
+   </div>
+
+    <div class="card-container">
+
+      
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <div class="image-card">
+            <div class="image-icon">
+                <img src="placeholder-image.png" alt="icon"> 
+            </div>
+            <div class="image-title">Image Title </div>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab molestiae tenetur repellendus eveniet consequuntur velit perspiciatis rem, esse ex eaque amet deleniti magni animi eligendi maxime quisquam? Voluptas, voluptates excepturi!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus similique cupiditate nihil totam reprehenderit corrupti eos. Facilis debitis blanditiis minus voluptatibus veritatis excepturi accusantium perspiciatis, recusandae, nisi libero dolorum sequi!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ipsa odit explicabo ducimus, voluptas harum. Ex praesentium natus nulla. Blanditiis, architecto earum! Corrupti veniam accusantium quasi cumque consequuntur dolor delectus.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint quos quam exercitationem autem officia eum, optio, nobis natus iure earum culpa molestias magni ipsum sequi harum dignissimos ullam explicabo reiciendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum error amet repellat molestiae consequuntur repudiandae voluptatum, ea ullam vero ex provident, distinctio nesciunt. Placeat veniam eaque mollitia corporis dolor voluptas.
+        </p>
+
+    </div>
+</body>
+</html>
